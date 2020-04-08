@@ -136,15 +136,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="web.config" />
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="about.html" />
     <Content Include="activities.html" />
     <Content Include="assets\css\fontawesome-all.min.css" />
@@ -378,10 +369,10 @@
     <Content Include="Images\pushpabhishekam\%287%29.jpg" />
     <Content Include="Images\pushpabhishekam\%288%29.jpg" />
     <Content Include="Images\pushpabhishekam\%289%29.jpg" />
-    <Content Include="Images\slide\1.png" />
-    <Content Include="Images\slide\2.png" />
     <Content Include="Images\slide\3.png" />
+    <Content Include="Images\slide\2.png" />
     <Content Include="Images\slide\4.png" />
+    <Content Include="Images\slide\1.png" />
     <Content Include="Images\slide\5.png" />
     <Content Include="Images\smallarticle\10.png" />
     <Content Include="Images\smallarticle\bala2.png" />
@@ -442,6 +433,15 @@
     <Content Include="assets\webfonts\fa-solid-900.ttf" />
     <Content Include="assets\webfonts\fa-solid-900.woff" />
     <Content Include="assets\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
