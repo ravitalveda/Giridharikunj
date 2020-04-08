@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GiridhariKunj
+namespace GiridhariKunj06082018
 {
 
 

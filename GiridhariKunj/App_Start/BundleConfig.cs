@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace GiridhariKunj
+namespace GiridhariKunj06082018
 {
     public class BundleConfig
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GiridhariKunj {
+namespace GiridhariKunj06082018 {
     
     
     public partial class Site_Mobile {
