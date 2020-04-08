@@ -135,7 +135,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="activities.html" />
@@ -388,7 +396,6 @@
     <Content Include="Images\spotlight03.jpg" />
     <Content Include="Images\teluguclass.jpg" />
     <Content Include="index-demo.html" />
-    <Content Include="index.html" />
     <Content Include="janmashtami.html" />
     <Content Include="puspha.html" />
     <Content Include="rathayatra.html" />
