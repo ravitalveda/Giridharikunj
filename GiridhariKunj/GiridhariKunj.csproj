@@ -154,6 +154,7 @@
     <Content Include="assets\webfonts\fa-solid-900.svg" />
     <Content Include="contact.html" />
     <Content Include="dailydarshan.html" />
+    <Content Include="donate.html" />
     <Content Include="founder.html" />
     <Content Include="gallery.html" />
     <Content Include="govardhan.html" />
@@ -164,6 +165,10 @@
     <Content Include="Images\dailydarshan\2.jpg" />
     <Content Include="Images\dailydarshan\3.jpg" />
     <Content Include="Images\dailydarshan\4.jpg" />
+    <Content Include="Images\dailydarshan\5.jpg" />
+    <Content Include="Images\dailydarshan\6.jpg" />
+    <Content Include="Images\dailydarshan\7.jpg" />
+    <Content Include="Images\dailydarshan\8.jpg" />
     <Content Include="Images\gallery\fulls\01.jpg" />
     <Content Include="Images\gallery\fulls\02.jpg" />
     <Content Include="Images\gallery\fulls\03.jpg" />
@@ -239,6 +244,7 @@
     <Content Include="Images\general\body-img.jpg" />
     <Content Include="Images\general\border1.png" />
     <Content Include="Images\general\Daily.PNG" />
+    <Content Include="Images\general\donate.png" />
     <Content Include="Images\general\footer-img.png" />
     <Content Include="Images\general\giridhariNew.jpg" />
     <Content Include="Images\general\guesthouse.PNG" />
@@ -319,9 +325,6 @@
     <Content Include="Images\janmashtami\%288%29.jpg" />
     <Content Include="Images\janmashtami\%289%29.jpg" />
     <Content Include="Images\nylogo.png" />
-    <Content Include="Images\pic01.jpg" />
-    <Content Include="Images\pic02.jpg" />
-    <Content Include="Images\pic03.jpg" />
     <Content Include="Images\prabhupada\1.jpg" />
     <Content Include="Images\prabhupada\prabhupada1.jpg" />
     <Content Include="Images\pushpabhishekam\%281%29.jpg" />
@@ -377,6 +380,7 @@
     <Content Include="Images\smallarticle\10.png" />
     <Content Include="Images\smallarticle\bala2.png" />
     <Content Include="Images\smallarticle\gaurpurnima.png" />
+    <Content Include="Images\smallarticle\gitajayanti.png" />
     <Content Include="Images\smallarticle\janmastami.png" />
     <Content Include="Images\smallarticle\narasimha.png" />
     <Content Include="Images\smallarticle\nityananda.png" />

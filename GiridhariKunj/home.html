@@ -20,10 +20,12 @@
                     overflow: hidden;
                     padding: 20px 10px;
                 }
+
                     .header a.active {
                         background-color: dodgerblue;
                         color: white;
                     }
+
                 .header-right {
                     float: right;
                     padding: 3% 0px;
@@ -32,7 +34,7 @@
 
             <div class="header">
                 <a href="#default" class="logo">
-                    <img class="logoimage" src="images/nylogo.png" style="height: 160px;" alt="IskconMetpally" />
+                    <img class="logoimage" src="images/nylogo.png" style="height: 160px;" alt="ISKCONMetpally" />
                 </a>
                 <div class="header-right">
                     <a class="button small primary" href="/home.html">HOME</a>
@@ -42,6 +44,7 @@
                     <a class="button small" href="/gallery.html">GALLERY</a>
                     <a class="button small" href="/activities.html">ACTIVITIES</a>
                     <a class="button small" href="/contact.html">CONTACT</a>
+                    <a class="button small icon solid fa-download" href="/donate.html">DONATE</a>
                 </div>
             </div>
 
@@ -135,7 +138,7 @@
         <br />
 
         <section class="wrapper style1 align-center">
-            <h2>Recent News</h2>
+            <h2>News & Updates</h2>
             <div class="inner" style="padding: 2rem 2.5rem 3rem 2.5rem">
                 <p>
                     <span class="image left" style="margin-top:4%"><img src="images/teluguclass.jpg" alt="" /></span>
@@ -252,17 +255,55 @@
                         </p>
                     </section>
                     <section>
-                        <h3>Nine</h3>
-                        <img class="img-responsive-round" src="images/smallarticle/gaurpurnima.png" />
+                        <h3>Gita Jayanti</h3>
+                        <img class="img-responsive-round" src="images/smallarticle/gitajayanti.png" />
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci
-                            amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.
+
+                            The Bhagavad-Gita, "The Lord’s Song", is understood as a conversation between Krishna and Arjuna but meant for the whole world’s
+                            benefit. On this day, devotees gather to glorify the sacred conversation.
                         </p>
                     </section>
                 </div>
             </div>
         </section>
 
+
+
+        <section class="wrapper style1 align-center">
+            <div class="inner" style="padding: 2rem 2.5rem 3rem 2.5rem">
+                <h2>Support us</h2>
+
+                <img src="Images/general/donate.png" style="width:100%" />
+
+                <br />
+                <p>
+                    The activities of ISKCON Metpally are solely supported by the kind generosity of its members, friends and well wishers.</br>
+                    All donations are tax-deductible.</br>
+                </p>
+                <section>
+                    <header>
+                        <h3>Account</h3>
+                    </header>
+                    <div class="content">
+
+<pre><code>Number: 38750833980
+Name: ISKCON
+Type: SAVING
+Bank: STATE BANK OF INDIA
+Branch: METPALLY
+IFSC: SBIN0020145
+ </code></pre>
+
+                    </div>
+                </section>
+
+            </div>
+
+            <p>
+                For more details visit our <a href="donate.html"> donations page </a>
+            </p>
+
+        </section>
 
         <img src="images/general/border1.png" style="width: 100%;" />
 
@@ -283,7 +324,10 @@
                             <script type="text/javascript">
                                 window.onload = function () {
                                     var curDay = new Date().getDate();
-                                    var source = "https://quotes.iskcondesiretree.com/wp-content/uploads/2012/11/0" + curDay + "-Srila_Prabhupada_Quotes_-_800x8008.jpg";
+
+                                    if (curDay < 10) { curDay = '0' + curDay };
+
+                                    var source = "https://quotes.iskcondesiretree.com/wp-content/uploads/2012/11/" + curDay + "-Srila_Prabhupada_Quotes_-_800x8008.jpg";
                                     document.getElementById('quoteImage').src = source;
                                 }
                             </script>
@@ -294,15 +338,17 @@
                     </section>
                     <section>
                         <h3>Daily Schedule</h3>
-                        <div style="border-radius: 5px; font-size: 17px; border-color: rgba(0, 0, 0, 0.2);  border: solid 1px; padding: 0.5rem;">
-                            05:00 AM - Mangala Arati<br>
-                            05:15 AM - Tulsi Arati<br>
-                            06:00 AM - Japa (Chanting)<br>
-                            07:30 AM - Darshan Arati<br>
-                            07:40 AM - Gurupuja<br>
-                            12:15 PM - Raja Bhoga Arati<br>
-                            04:30 PM - Sandhya Arati<br>
-                            08:30 PM - Shayana Arati<br>
+                        <div style="border-radius: 5px; font-size: 14px; font-weight:600; border-color: rgba(0, 0, 0, 0.2);  border: solid 1px; padding: 0.5rem;">
+                            04:30 AM - Mangala Arati<br>
+                            05:05 AM - Tulsi Arati<br>
+                            05:15 AM - Japa (Chanting)<br>
+                            07:15 AM - Darshan Arati<br>
+                            07:25 AM - Gurupuja<br>
+                            08:00 AM - Srimad Bhagavatam Class<br>
+                            12:00 PM - Vaikalika Arati<br>
+                            06:30 PM - Sandhya Arati<br>
+                            08:00 PM - Shayana Arati<br>
+                            08:15 PM - Temple Closes<br>
                         </div>
                     </section>
 
@@ -313,7 +359,7 @@
         <footer class="wrapper style1 align-center">
             <div class="inner">
                 <ul class="icons">
-                    <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://twitter.com/IMetpally?s=08" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
                     <li>
                         <a href="https://www.facebook.com/Giridharikunj/" target="_blank" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
                     </li>
@@ -326,8 +372,8 @@
                     <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
                 <p>
-                    &copy;<a href="https://html5up.net">ISKCON Metpally</a>.<br>
-                    Founder Acharya: His Devine Grace A.C. Bhaktivedanta Swami Srila Prabhupada
+                    &copy;ISKCON Metpally.<br>
+                    Founder Acharya: His Divine Grace A.C. Bhaktivedanta Swami Srila Prabhupada
                 </p>
             </div>
         </footer>
