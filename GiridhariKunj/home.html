@@ -10,6 +10,16 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta name="google-site-verification" content="1sHEI6-v-73uksI9N6XbTH4CQyEc99-VzPXCVpuiR3w" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163402076-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-163402076-1');
+    </script>
 </head>
 
 <body class="is-preload">
@@ -33,7 +43,7 @@
             </style>
 
             <div class="header">
-                <a href="#default" class="logo">
+                <a href="/home.html" class="logo">
                     <img class="logoimage" src="images/nylogo.png" style="height: 160px;" alt="ISKCONMetpally" />
                 </a>
                 <div class="header-right">
@@ -50,88 +60,93 @@
 
         </section>
 
-        <div style="background-image: url('images/giphy3.gif');">
+
+
+
+
+
+        <div>
             <section class="wrapper style1 align-center">
-                <div class="inner" style="padding: 0rem 2.5rem 0rem 2.5rem">
-                    <style>
+                <!--<div class="inner" style="padding: 0rem 2.5rem 0rem 2.5rem">-->
+                <style>
 
-                        @keyframes slidy {
-                            0% {
-                                left: 0%;
-                            }
-
-                            20% {
-                                left: 0%;
-                            }
-
-                            25% {
-                                left: -100%;
-                            }
-
-                            45% {
-                                left: -100%;
-                            }
-
-                            50% {
-                                left: -200%;
-                            }
-
-                            70% {
-                                left: -200%;
-                            }
-
-                            75% {
-                                left: -300%;
-                            }
-
-                            80% {
-                                left: -300%;
-                            }
-
-                            90% {
-                                left: -400%;
-                            }
-
-                            100% {
-                                left: -400%;
-                            }
+                    @keyframes slidy {
+                        0% {
+                            left: 0%;
                         }
 
-                        body {
+                        20% {
+                            left: 0%;
+                        }
+
+                        25% {
+                            left: -100%;
+                        }
+
+                        45% {
+                            left: -100%;
+                        }
+
+                        50% {
+                            left: -200%;
+                        }
+
+                        70% {
+                            left: -200%;
+                        }
+
+                        75% {
+                            left: -300%;
+                        }
+
+                        80% {
+                            left: -300%;
+                        }
+
+                        90% {
+                            left: -400%;
+                        }
+
+                        100% {
+                            left: -400%;
+                        }
+                    }
+
+                    body {
+                        margin: 0;
+                    }
+
+                    div#slider {
+                        overflow: hidden;
+                    }
+
+                        div#slider figure img {
+                            width: 20%;
+                            float: left;
+                        }
+
+                        div#slider figure {
+                            position: relative;
+                            width: 500%;
+                            max-height: 700px;
                             margin: 0;
+                            left: 0;
+                            text-align: left;
+                            font-size: 0;
+                            animation: 15s slidy infinite;
                         }
+                </style>
 
-                        div#slider {
-                            overflow: hidden;
-                        }
-
-                            div#slider figure img {
-                                width: 20%;
-                                float: left;
-                            }
-
-                            div#slider figure {
-                                position: relative;
-                                width: 500%;
-                                max-height: 700px;
-                                margin: 0;
-                                left: 0;
-                                text-align: left;
-                                font-size: 0;
-                                animation: 15s slidy infinite;
-                            }
-                    </style>
-
-                    <div id="slider">
-                        <figure>
-                            <img src="images/slide/1.png" />
-                            <img src="images/slide/2.png" />
-                            <img src="images/slide/3.png" />
-                            <img src="images/slide/4.png" />
-                            <img src="images/slide/5.png" />
-                        </figure>
-                    </div>
+                <div id="slider">
+                    <figure>
+                        <img src="images/slide/1.png" />
+                        <img src="images/slide/2.png" />
+                        <img src="images/slide/3.png" />
+                        <img src="images/slide/4.png" />
+                        <img src="images/slide/5.png" />
+                    </figure>
                 </div>
+                <!--</div>-->
             </section>
         </div>
 
@@ -273,7 +288,7 @@
             <div class="inner" style="padding: 2rem 2.5rem 3rem 2.5rem">
                 <h2>Support us</h2>
 
-                <img src="Images/general/donate.png" style="width:100%" />
+                <img src="images/general/donate.png" style="width:100%" />
 
                 <br />
                 <p>
@@ -327,7 +342,9 @@ IFSC: SBIN0020145
 
                                     if (curDay < 10) { curDay = '0' + curDay };
 
-                                    var source = "https://quotes.iskcondesiretree.com/wp-content/uploads/2012/11/" + curDay + "-Srila_Prabhupada_Quotes_-_800x8008.jpg";
+                                    //var source = "https://quotes.iskcondesiretree.com/wp-content/uploads/2012/11/" + curDay + "-Srila_Prabhupada_Quotes_-_800x8004.jpg";
+                                    var source = "http://harekrishnacalendar.com/wp-content/uploads/2012/09/Srila-Prabhupada-Quotes-For-Month-April-" + curDay + ".png"
+
                                     document.getElementById('quoteImage').src = source;
                                 }
                             </script>
@@ -359,17 +376,11 @@ IFSC: SBIN0020145
         <footer class="wrapper style1 align-center">
             <div class="inner">
                 <ul class="icons">
+                    <li><a href="https://www.facebook.com/Giridharikunj/" target="_blank" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/iskcon_metpally/" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCBLMfycPy2ovlCOKX82GCZQ" target="_blank" class="icon brands style2 fa-youtube"><span class="label">Youtube</span></a></li>
+                    <li><a href="mailto:Iskconmetpally@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                     <li><a href="https://twitter.com/IMetpally?s=08" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li>
-                        <a href="https://www.facebook.com/Giridharikunj/" target="_blank" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a>
-                    </li>
-                    <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
                 <p>
                     &copy;ISKCON Metpally.<br>
