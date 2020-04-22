@@ -152,6 +152,14 @@
     <Content Include="assets\webfonts\fa-brands-400.svg" />
     <Content Include="assets\webfonts\fa-regular-400.svg" />
     <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="balaram.html" />
+    <Content Include="Images\balaram\1.jpg" />
+    <Content Include="Images\balaram\2.jpg" />
+    <Content Include="Images\balaram\3.jpg" />
+    <Content Include="Images\balaram\4.jpg" />
+    <Content Include="Images\balaram\5.jpg" />
+    <Content Include="Images\balaram\6.jpg" />
+    <Content Include="sharadpurnima.html" />
     <Content Include="contact.html" />
     <Content Include="dailydarshan.html" />
     <Content Include="donate.html" />
@@ -160,7 +168,14 @@
     <Content Include="govardhan.html" />
     <Content Include="home.html" />
     <Content Include="Images\banner.jpg" />
-    <Content Include="Images\ccclass.jpg" />
+    <Content Include="Images\brahmotsavam\1.jpg" />
+    <Content Include="Images\brahmotsavam\2.jpg" />
+    <Content Include="Images\brahmotsavam\3.jpg" />
+    <Content Include="Images\brahmotsavam\4.jpg" />
+    <Content Include="Images\brahmotsavam\5.jpg" />
+    <Content Include="Images\brahmotsavam\6.jpg" />
+    <Content Include="Images\brahmotsavam\7.jpg" />
+    <Content Include="Images\brahmotsavam\8.jpg" />
     <Content Include="Images\dailydarshan\1.jpg" />
     <Content Include="Images\dailydarshan\2.jpg" />
     <Content Include="Images\dailydarshan\3.jpg" />
@@ -370,6 +385,8 @@
     <Content Include="Images\janmashtami\%287%29.jpg" />
     <Content Include="Images\janmashtami\%288%29.jpg" />
     <Content Include="Images\janmashtami\%289%29.jpg" />
+    <Content Include="Images\news\cc.jpg" />
+    <Content Include="Images\news\sbtelugu.jpg" />
     <Content Include="Images\nylogo.png" />
     <Content Include="Images\prabhupada\1.jpg" />
     <Content Include="Images\prabhupada\prabhupada1.jpg" />
@@ -418,6 +435,10 @@
     <Content Include="Images\pushpabhishekam\%287%29.jpg" />
     <Content Include="Images\pushpabhishekam\%288%29.jpg" />
     <Content Include="Images\pushpabhishekam\%289%29.jpg" />
+    <Content Include="Images\sharadpurnima\1.jpg" />
+    <Content Include="Images\sharadpurnima\2.jpg" />
+    <Content Include="Images\sharadpurnima\3.jpg" />
+    <Content Include="Images\sharadpurnima\4.jpg" />
     <Content Include="Images\slide\3.png" />
     <Content Include="Images\slide\2.png" />
     <Content Include="Images\slide\4.png" />
@@ -435,11 +456,11 @@
     <Content Include="Images\spotlight01.jpg" />
     <Content Include="Images\spotlight02.jpg" />
     <Content Include="Images\spotlight03.jpg" />
-    <Content Include="Images\teluguclass.jpg" />
     <Content Include="index-demo.html" />
     <Content Include="janmashtami.html" />
     <Content Include="puspha.html" />
     <Content Include="inside.html" />
+    <Content Include="brahmotsavam.html" />
     <Content Include="rathayatra.html" />
   </ItemGroup>
   <ItemGroup>
