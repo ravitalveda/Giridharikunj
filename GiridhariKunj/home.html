@@ -28,8 +28,8 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "UA-163402076-1");
+      gtag('js', new Date());
+      gtag('config', 'UA-163402076-1');
     </script>
   </head>
 
@@ -40,7 +40,11 @@
           <div class="row">
             <div class="col-12">
               <!-- Logo -->
-              <h1><a href="home.html" id="logo">Sri Sri Radha Govardhandhari Mandir</a></h1>
+              <h1>
+                <a href="home.html" id="logo"
+                  >Sri Sri Radha Govardhandhari Mandir</a
+                >
+              </h1>
 
               <!-- Nav -->
               <nav id="nav">
@@ -132,7 +136,7 @@
           <div id="slider">
             <figure>
               <img src="images/slide/homeslide.webp" />
-              <img src="images/slide/6.webp" />
+              <img src="images/slide/abhisheka.webp" />
               <img src="images/slide/jbsslide.webp" />
               <img src="images/slide/2.webp" />
               <img src="images/slide/ppslide.webp" />
@@ -317,19 +321,40 @@
               <a href="#">
                 <script type="text/javascript">
                   window.onload = function () {
-                    var curDay = new Date().getDate();
+                    var monthNames = [
+                      'January',
+                      'February',
+                      'March',
+                      'April',
+                      'May',
+                      'June',
+                      'July',
+                      'August',
+                      'September',
+                      'October',
+                      'November',
+                      'December',
+                    ];
 
-                    if (curDay < 10) {
-                      curDay = "0" + curDay;
+                    function getCurrentMonthName(d) {
+                      var t = new Date(d);
+                      return monthNames[t.getMonth()];
                     }
 
-                    //var source = "https://quotes.iskcondesiretree.com/wp-content/uploads/2012/11/" + curDay + "-Srila_Prabhupada_Quotes_-_800x8004.jpg";
-                    var source =
-                      "http://harekrishnacalendar.com/wp-content/uploads/2012/09/Srila-Prabhupada-Quotes-For-Month-April-" +
-                      curDay +
-                      ".png";
+                    let curDay = new Date().getDate();
+                    let curMonth = getCurrentMonthName(new Date());
 
-                    document.getElementById("quoteImage").src = source;
+                    let curDayString =
+                      curDay < 10 ? '0' + curDay : curDay.toString();
+
+                    var quoteSource =
+                      'http://harekrishnacalendar.com/wp-content/uploads/2012/09/Srila-Prabhupada-Quotes-For-Month-' +
+                      curMonth +
+                      '-' +
+                      curDayString +
+                      '.png';
+
+                    document.getElementById('quoteImage').src = quoteSource;
                   };
                 </script>
                 <img
